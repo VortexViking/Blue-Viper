@@ -3,9 +3,10 @@
 
 <div style="text-align: center;">
   <a href="https://postimg.cc/pmpdXxN6">
-    <img src="https://i.postimg.cc/nh192c3p/blue-viper.png" alt="blue-viper.png">
+    <img src="https://i.postimg.cc/nh192c3p/blue-viper.png" alt="blue-viper.png" style="width: 2in; height: 2in;">
   </a>
 </div>
+
 <br>
  Oh, trust me, the Blue Viper Terminal-based browser I’m coding is straight fire. I’ve built it in Python, and it’s got *serious* swagger. With the markdown history storage, every move I make gets saved like I’m keeping a secret stash of my web conquests. And don’t even get me started on the built-in web scraping—it’s like having a superpower. I just pull data off the web with ease, like it’s nothing. This thing’s a straight-up beast, and I’m about to make sure it leaves a *serious* mark.
 
