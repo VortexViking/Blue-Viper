@@ -1,11 +1,15 @@
 # Blue-Viper
 ## A python based web browser for skids that runs on unix based systems
 
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; text-align: center;">
+  <p style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold; color: #4CAF50; margin-bottom: 20px;">
+    Terminal Browser written in Python.
+  </p>
   <a href="https://postimg.cc/pmpdXxN6">
     <img src="https://i.postimg.cc/nh192c3p/blue-viper.png" alt="blue-viper.png" style="width: 2in; height: 2in;">
   </a>
 </div>
+
 
 
 <br>
