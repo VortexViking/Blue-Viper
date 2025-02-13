@@ -32,3 +32,13 @@ But if you want to roll with me on this, here's the vibe: contribute, and you ge
 - [ ] History
 - [ ] Tabs
 - [ ] Workspaces
+
+# Installing
+
+We do not have an install script so in order for article scrape work, `cd` where the main.py is and run the following:
+
+```
+wget https://github.com/VortexViking/scripts/blob/main/scripts/python/scrape/article-scrape.py
+```
+
+
