@@ -41,4 +41,19 @@ We do not have an install script so in order for article scrape work, `cd` where
 wget https://github.com/VortexViking/scripts/blob/main/scripts/python/scrape/article-scrape.py
 ```
 
+You also will have to manually add `config.py` to `~/.config/blueviper/` and manualy create the directory. or run below to install.
+
+To install the program run the following:
+
+```
+mkdir ~/config/blueviper/ && cd  ~/config/blueviper
+wget https://github.com/VortexViking/Blue-Viper/blob/main/config.py && cd ~/
+sudo cd usr/bin && mkdir blueviper && cd blueviper
+wget https://github.com/VortexViking/Blue-Viper/blob/main/main.py
+cd ~/
+```
+
+Now make an alias so whenever you type `bv` the program runs. 
+
+<script src="https://gist.github.com/VortexViking/21d84305efd9f115d0afd7142c288551.js"></script>
 
