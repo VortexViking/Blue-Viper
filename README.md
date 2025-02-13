@@ -55,5 +55,5 @@ cd ~/
 
 Now make an alias so whenever you type `bv` the program runs. 
 
-<script src="https://gist.github.com/VortexViking/21d84305efd9f115d0afd7142c288551.js"></script>
+Read about it here: https://gist.github.com/VortexViking/21d84305efd9f115d0afd7142c288551
 
