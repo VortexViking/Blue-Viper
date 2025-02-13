@@ -1,6 +1,7 @@
 import curses
 import importlib.util
 import os
+import sys
 
 # Import the scrape script
 def load_scrape_script():
@@ -14,12 +15,40 @@ def load_scrape_script():
         print("Scrape script not found.")
         return None
 
+# Dynamically import the config from ~/.config/blueviper/config.py
+def load_config():
+    config_path = os.path.expanduser("~/.config/blueviper/config.py")
+    if os.path.exists(config_path):
+        spec = importlib.util.spec_from_file_location("config", config_path)
+        config = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(config)
+        return config
+    else:
+        print("Config file not found.")
+        return None
+
 # Main UI Logic with Sidebar
 def main(stdscr):
+    # Load the configuration
+    config = load_config()
+    if config is None:
+        stdscr.addstr(0, 0, "Config file not found. Using default settings.")
+        stdscr.refresh()
+        stdscr.getch()
+        return
+
     # Initialize curses
     curses.curs_set(0)  # Hide cursor
     stdscr.nodelay(1)   # Non-blocking input
     stdscr.timeout(100)  # Set timeout for input refresh
+
+    # Get colors from config
+    theme = config.get_theme()
+    background_color = theme['background_color']
+    highlight_color = theme['highlight_color']
+    text_color = theme['text_color']
+    sidebar_color = theme['sidebar_color']
+    selected_item_color = theme['selected_item_color']
 
     # Sidebar options with emojis
     sidebar_items = [
