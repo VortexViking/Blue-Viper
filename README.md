@@ -20,7 +20,7 @@ But wait, it gets better. It’s got a slick sidebar 🖥️ that makes navigati
 
 But if you want to roll with me on this, here's the vibe: contribute, and you get to flex with the coolest project in town. Need that hard rizz? Jump in, make some magic, and we’ll build this into a masterpiece. It’s not just about building a browser—it’s about leaving a legacy. Let’s make it happen!
 
-# Features
+# Features (Release 1.0a)
 
 - [ ] Sidebar
 - [ ] Built in scrapeing
